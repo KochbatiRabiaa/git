@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyShoppingCart</title>
+    <link rel="stylesheet" href="./shCart.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="div">
+        <table>
+            <tr>
+                <th class="heading"> Shopping Bag </th>
+                <th class="heading"> Format</th>?
+                <th class="heading"> Quantity</th>
+                <th class="heading"> Price </th>
+                <th class="heading"> Total</th>
+                <th></th>
+            </tr>
+            <tr class="first">
+                <td class="books">
+                    <img src="./img1.jpg">
+                    <h1>شوق الدراويش</h1>
+                    <h3>حمّور زيادة</h3>
+
+
+                <td class="format">Digital </td>
+
+                <td>
+                    <form action="/action_page.php">
+                        <input type="number" class="quantity" value="1" min="1" max="100">
+                    </form>
+                </td>
+                <td> <span id="demo" class="price">9.99</span><span>$</span></td>
+                <td><span class="total"> 9.99</span><span>$</span></td>
+                </td>
+                <td> <button class="remove" type="button">Remove</button>
+                    <br>
+                    <i class="fa fa-heart" style="font-size:24px"></i></td>
+            </tr>
+            <tr class="first">
+                <td class="books">
+                    <img src="./img2.png">
+                    <h1>زوربا</h1>
+                    <h3>نيكولاس كازنتازاكي</h3>
+
+                </td>
+                <td class="format">Paperback </td>
+                <td>
+                    <form action="/action_page.php">
+                        <input type="number" class="quantity" value="1" name="quantity" min="1" max="100">
+                    </form>
+                </td>
+                <td> <span id="demo" class="price">9.99</span><span>$</span></td>
+                <td><span class="total"> 9.99</span><span>$</span></td>
+                <td> <button class="remove" type="button">Remove</button>
+                    <br>
+                    <i class="fa fa-heart" style="font-size:24px"></i></td>
+
+            </tr>
+
+            <tr class="first">
+                <td class="books">
+                    <img src="./img3.jpg">
+                    <h1>البحث عن وليد مسعود</h1>
+                    <h3>جبرا ابراهيم جبرا</h3>
+
+                </td>
+
+                <td class="format">Paperback </td>
+
+                <td>
+                    <form action="/action_page.php">
+                        <input type="number" id="quantity" class="quantity" value="1" name="quantity" min="1" max="100">
+                    </form>
+                </td>
+                <td> <span id="demo" class="price">9.99</span><span>$</span></td>
+                <td><span class="total"> 9.99</span><span>$</span></td>
+
+                <td> <button class="remove" type="button">Remove</button>
+                    <br>
+                    <i class="fa fa-heart" style="font-size:24px"></i></td>
+            </tr>
+            <tr class="total-price" style="border-style: solid;">
+                <th colspan="4" class="tot">Total Price</th>
+                <td><span class="total">9.99$</span></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <script src="./shCart.js"></script>
+
+
+</body>
+
+</html>
