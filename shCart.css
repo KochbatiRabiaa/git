@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #fff;
+    background-repeat: no-repeat
+}
+table {
+    width: 70%;
+    float: center;
+    border-style:solid;
+    border-color: rgb(77, 22, 40);
+}
+
+.books {
+    padding: 20px 20px;
+    width: 250px;
+    text-align: center;
+}
+.format{
+    font-weight: 900;
+}
+td {
+width: 50px;
+text-align: center;
+}
+.remove {
+    border: 50px;
+}
+h1 {
+    font-size: 25px;
+}
+img{
+    width: 150px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.heart {
+    color: rgb(245, 8, 67);
+}
+button {
+   background-color: rgba(226, 85, 85, 0.884);
+   margin: 30px 0;
+}
+.heading {
+    font-size: large;
+    color: rgb(77, 22, 40);
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px 0 0 0;
+}
+.total , .price {
+    text-align: center; 
+}
+.total-price {
+    font-size: large;
+    height: 40px;
+    padding: 0 10PX;
+}
+.tot {
+    text-align: right;
+    
+    padding-right: 20px;
+    text-decoration: underline;
+    font-size: 20px;
+}
